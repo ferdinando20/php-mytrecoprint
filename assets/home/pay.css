@@ -1,0 +1,69 @@
+/* Help Start */
+.select-menu{
+  width: 800px;
+  margin: 150px auto;
+}
+
+.select-menu .select-btn{
+  display: flex;
+  height: 55px;
+  background: #ffffff;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-btn i{
+  font-size: 25px;
+}
+
+.select-menu .description{
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.description .desc{
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: #ffffff;
+}
+
+.description .desc:hover{
+  background: #F2F2F2;
+}
+
+.desc i{
+  font-size: 25px;
+  margin-right: 12px;
+}
+
+.desc .desc-text{
+  font-size: 18px;
+  color: grey;
+}
+/* Help End */
+
+.leftside{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.rightside{
+  width: 100%;
+  height: 100%;
+  background: #DDE1E6;;
+}

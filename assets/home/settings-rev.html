@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="images/logo.png" rel="icon">
+    <link rel="stylesheet" href="assets/vendor/css/styles.css">
+    <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>My TR ecoprint</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-column flex-md-row">
+            <!-- Sidebar Start -->
+            <div class="col-3 col-lg-2">  
+                <div class="col-12 shadow col-md-4 col-lg-2 px-sm-2 px-0 fixed-top min-vh-100" id="sidebar" style="background-color: #FFFFFF;">  
+                    <div class="p-2 flex-column mt-4">
+                        <div class="preloader flex-column justify-content-center align-items-center text-center mt-2">
+                            <img class="logo" src="images/logo.png" alt="Logo" height="100" width="100">
+                        </div>
+                        <div class="preloader flex-column justify-content-center align-items-center text-center mt-2 fs-3">
+                            <i class='bx bx-user m-2' ></i>
+                            <i class='bx bx-cog m-2' ></i>
+                            <i class='bx bx-bell m-2' ></i>
+                        </div>
+                        <ul class="nav nav-pills flex-column mt-4">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-black" aria-current="page">
+                                    <i class="fs-4 bx bx-home-alt"></i><span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-black" aria-current="page">
+                                    <i class="fs-4 bx bx-folder-open"></i><span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">Product</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-black" aria-current="page">
+                                    <i class="fs-4 bx bx-purchase-tag"></i><span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">Category</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-black" aria-current="page">
+                                    <i class="fs-4 bx bxs-user-account"></i><span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">Order</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-black" aria-current="page">
+                                    <i class="fs-4 bx bx-wallet"></i><span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">Payment</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-black" aria-current="page">
+                                    <i class="fs-4 bx bxs-plane-alt"></i><span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">Feedback</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar End -->
+
+            <div class="col-9 col-lg-10 pt-5">
+                <div class="col-md-12">
+                    <div class="col py-3 px-3" >
+                        <div class="py-3">
+                            <a class="d-flex text-decoration-none align-items-center">
+                                <h1 class="fs-3 d-none d-sm-inline text-dark mb-4 fw-bold">Settings</h1>
+                            </a>
+                        </div>
+                        <div class="add">
+                            <div class="row">
+                                <div class="col-md-2 table-responsive mb-5">
+                                    <ul class="nav nav-pills flex-column border p-1">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link text-black" aria-current="page">
+                                                <span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">Change Password</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link text-black" aria-current="page">
+                                                <span class="ms-3 d-none d-sm-inline" style="font-size:0.875em">FAQ</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                    <div class="col-md-6">
+                                        <form class="border rounded-0 p-5">
+                                            <h4 class="mb-4">Profile Photo</h4>
+                                            <div class="d-flex">
+                                                <div class="mb-3 mx-3">
+                                                    <img class="rounded-circle shadow-4-strong" alt="avatar2" src="images/profile.png" height="150" width="150"/>
+                                                </div>
+                                                <div class="mb-3 text-center mx-2 my-5">
+                                                    <button type="submit" class="btn btn-outline-primary rounded-0 mb-2">Upload Photo</button>
+                                                    <a href="#" class="text-dark text-decoration-none">Remove</a>
+                                                </div>   
+                                                <div class="vr mx-2"></div>
+                                                <div class="mb-3 mx-4 my-3">
+                                                    <h5 class="fs-5">Image requirments :</h5>
+                                                    <div class="mt-3">
+                                                        <h6 class="fw-normal">1. Min. 400 x 400px</h6>
+                                                        <h6 class="fw-normal">2. Max. 2MB</h6>
+                                                        <h6 class="fw-normal">3. Your face or company logo</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <form class="border rounded-0 p-5 mt-3">
+                                            <h4 class="mb-4">User Details</h4>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Username</label>
+                                                <input type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="password" class="form-label ">Password</label>
+                                                <input type="password" class="form-control rounded-0" id="password" placeholder="*******">
+                                            </div>
+                                            <div class="mb-3 py-2">
+                                                <button type="submit" class="btn btn-primary rounded-0 float-end">Change</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</body>
+</html>
